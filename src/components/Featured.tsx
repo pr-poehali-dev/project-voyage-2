@@ -47,7 +47,9 @@ export default function Featured() {
         </div>
         <a
           id="join"
-          href="https://t.me/+QgiLIa1gFRY4Y2Iy"
+          href="https://max.ru/u/f9LHodD0cOJU5ROtF2eIEZK7ib_c_3eKVNLcQ3ae6B_jC-RvEr7V8XenOJc"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block bg-emerald-600 text-white px-8 py-4 text-sm uppercase tracking-widest hover:bg-emerald-700 transition-colors duration-300 rounded-full w-fit"
         >
           Написать в комментарии

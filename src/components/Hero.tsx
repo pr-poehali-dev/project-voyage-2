@@ -35,7 +35,9 @@ export default function Hero() {
           Без сложных техник. Просто — выдохнуть.
         </p>
         <a
-          href="#join"
+          href="https://max.ru/u/f9LHodD0cOJU5ROtF2eIEZK7ib_c_3eKVNLcQ3ae6B_jC-RvEr7V8XenOJc"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block bg-emerald-600 text-white px-10 py-4 text-sm uppercase tracking-widest hover:bg-emerald-700 transition-colors duration-300 rounded-full"
         >
           Участвовать

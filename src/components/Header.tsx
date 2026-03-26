@@ -15,7 +15,9 @@ export default function Header({ className }: HeaderProps) {
             Формат
           </a>
           <a
-            href="#join"
+            href="https://max.ru/u/f9LHodD0cOJU5ROtF2eIEZK7ib_c_3eKVNLcQ3ae6B_jC-RvEr7V8XenOJc"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-emerald-600 text-white px-5 py-2 text-sm uppercase tracking-wide hover:bg-emerald-700 transition-colors duration-300 rounded-full"
           >
             Участвовать
