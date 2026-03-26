@@ -18,21 +18,31 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            src="https://cdn.poehali.dev/projects/6c87f0d4-b1d7-49fd-9e7f-faea7033671c/files/673b4bf7-3c39-4e73-b599-1ee7c6979865.jpg"
+            alt="Горный луг"
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-emerald-900/40" />
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg opacity-80">
-        Берег Катуни · 1 апреля
-      </h3>
-
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10 leading-tight">
-        Перевернуть жизнь на 180° не получится.<br/>
-        Получится немного выдохнуть — и начать разбираться спокойно.
-      </p>
+      <div className="absolute inset-0 flex flex-col justify-between p-8 md:p-16 z-10">
+        <p className="text-white/70 uppercase text-sm tracking-widest self-end">
+          Берег Катуни · 1 апреля
+        </p>
+        <div className="max-w-2xl">
+          <p className="font-display text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight font-light">
+            Перевернуть жизнь на 180° не получится.
+          </p>
+          <p className="font-display text-white/80 text-3xl sm:text-4xl md:text-5xl leading-tight font-light mt-4">
+            Получится немного выдохнуть — и начать разбираться спокойно.
+          </p>
+          <div className="mt-10 flex items-center gap-4">
+            <span className="text-white text-2xl font-bold">490 ₽</span>
+            <span className="text-white/60 text-sm uppercase tracking-widest">· 3 дня · закрытый чат</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

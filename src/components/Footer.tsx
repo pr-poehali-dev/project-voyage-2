@@ -5,51 +5,26 @@ export default function Footer() {
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
       <div className="relative h-[calc(100vh+400px)] sm:h-[calc(100vh+600px)] lg:h-[calc(100vh+800px)] -top-[100vh]">
-        <div className="h-[400px] sm:h-[600px] lg:h-[800px] sticky top-[calc(100vh-400px)] sm:top-[calc(100vh-600px)] lg:top-[calc(100vh-800px)]">
-          <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
-            <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
-              <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Формат</h3>
-                <a
-                  href="#format"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  3 дня
-                </a>
-                <a
-                  href="#format"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  490 ₽
-                </a>
-                <a
-                  href="#join"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Участвовать
-                </a>
+        <div className="h-[400px] sm:h-[600px] lg:h-[800px] sticky top-[calc(100vh-400px)] sm:top-[calc(100vh-600px)] lg:top[calc(100vh-800px)]">
+          <div className="bg-amber-50 py-4 sm:py-6 lg:py-8 px-6 sm:px-10 h-full w-full flex flex-col justify-between border-t border-emerald-100">
+            <div className="flex shrink-0 gap-8 sm:gap-16 lg:gap-24">
+              <div className="flex flex-col gap-2">
+                <h3 className="mb-2 uppercase text-emerald-400 text-xs tracking-widest">Формат</h3>
+                <a href="#format" className="text-emerald-800 hover:text-emerald-600 transition-colors text-sm">3 дня</a>
+                <a href="#format" className="text-emerald-800 hover:text-emerald-600 transition-colors text-sm">490 ₽</a>
+                <a href="#join" className="text-emerald-800 hover:text-emerald-600 transition-colors text-sm">Участвовать</a>
               </div>
-              <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Контакт</h3>
-                <a
-                  href="https://t.me/+QgiLIa1gFRY4Y2Iy"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Telegram
-                </a>
-                <a
-                  href="#format"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Начало 1 апреля
-                </a>
+              <div className="flex flex-col gap-2">
+                <h3 className="mb-2 uppercase text-emerald-400 text-xs tracking-widest">Контакт</h3>
+                <a href="https://t.me/+QgiLIa1gFRY4Y2Iy" className="text-emerald-800 hover:text-emerald-600 transition-colors text-sm">Telegram</a>
+                <a href="#format" className="text-emerald-800 hover:text-emerald-600 transition-colors text-sm">Начало 1 апреля</a>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
-              <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
-                ВЫДОХ
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4">
+              <h1 className="font-display text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.85] text-emerald-800 font-light tracking-tight">
+                Выдох
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} МАКС</p>
+              <p className="text-emerald-500 text-sm">{new Date().getFullYear()} МАКС</p>
             </div>
           </div>
         </div>
