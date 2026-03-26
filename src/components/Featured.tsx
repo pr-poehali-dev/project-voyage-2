@@ -21,8 +21,8 @@ export default function Featured() {
     <div id="format" className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0 bg-white">
       <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Горный пейзаж Катуни"
+          src="https://cdn.poehali.dev/projects/6c87f0d4-b1d7-49fd-9e7f-faea7033671c/files/02a95604-0ef3-4f35-8022-20c2e8af0df1.jpg"
+          alt="Утренний лес"
           className="w-full h-full object-cover"
         />
       </div>
